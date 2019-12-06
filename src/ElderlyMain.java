@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class ElderlyMain {
     public static void main(String... args) {
 
-        List<ElderlyPeople> elderly = new ArrayList<>();
+        final List<ElderlyPeople> elderly = new ArrayList<>();
 
         elderly.add(new ElderlyPeople("Hubert", 83, 1.25));
         elderly.add(new ElderlyPeople("Maria", 79, 1.11));
